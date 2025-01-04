@@ -5,9 +5,7 @@
 </div>
 
 <div align="center">
- <b>
-  <a class="link" href="https://thewampuscats.org">$> visit website</a>
-  <br/>
-  <a class="link" href="https://discord.gg/QwgKNGEw7F">$> join discord</a>
- </b>
+ <a class="link" href="https://thewampuscats.org">
+  <img class="image" src="website_link.svg" alt="Click to see the source">
+ </a>
 </div>
