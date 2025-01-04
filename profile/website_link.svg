@@ -4,20 +4,33 @@
       <style>
         .wrapper {
           height: 100vh;
-          display: grid;
+          display: flex;
           place-items: center;
         }
-
+        .prompt {
+          width: 3ch;
+          white-space: nowrap;
+          overflow: hidden;
+          font-family: monospace;
+          font-size: 2em;
+          background: cyan;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
         .text {
-          width: 9ch;
-          animation: typing 1.5s steps(9), blink .5s step-end infinite alternate;
+          width: 30ch;
+          animation: typing 1.5s steps(30), blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid;
           font-family: monospace;
-          font-size: 4em;
+          font-size: 2em;
+          background: cyan;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+        }
+        .keyword {
+          background: red;
         }
 
         @keyframes typing {
@@ -32,11 +45,11 @@
         }
       </style>
       <div class="wrapper">
-        <div>
+        <div class="prompt">
           $> 
         </div>
         <div class="text">
-          visit website
+          wget https://thewampuscats.org
         </div>
       </div>
   </div>
