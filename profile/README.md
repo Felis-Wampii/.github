@@ -1,1 +1,38 @@
-# The Wampus Cats
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        img {
+          max-width: 25%;
+          max-height:15%;
+          float: left;
+        }
+        .text {
+          font-size: 20px;
+          padding-left: 20px;
+          padding-top: 20%;
+          float: left;
+        }
+      </style>
+      <div class="container">
+        <div class="image">
+          <img height="150" src="https://github.com/Felis-Wampii/.github/blob/main/profile/logo.png?raw=true">
+        </div>
+        <div class="text">
+          <h1>Felis Wampii</h1>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
+
+<div align="center">
+ <a class="link" href="https://github.com/Felis-Wampii/.github/blame/main/header.svg">
+  <img class="image" src="header.svg" alt="Click to see the source">
+ </a>
+</div>
