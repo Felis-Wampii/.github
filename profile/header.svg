@@ -20,9 +20,6 @@
         }
       </style>
       <div class="container">
-        <div class="image">
-          <img height="150" src="logo.png">
-        </div>
         <div class="text">
           <h1>Felis Wampii</h1>
         </div>
