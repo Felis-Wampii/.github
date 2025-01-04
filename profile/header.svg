@@ -1,32 +1,32 @@
 <svg fill="none" width="100%"  xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        img {
-          max-width: 75%;
-          max-height: 75%;
-          float: left;
-        }
-        .text {
-          font-size: 20px;
-          padding-left: 20px;
-          padding-top: 20%;
-          float: left;
-        }
-      </style>
-      <div class="container">
-	<div class="image">
-	  <img src="https://github.com/Felis-Wampii/.github/blob/main/profile/logo.png?raw=true"/>
-	</div>
-        <div class="text">
-          <h1>Felis Wampii</h1>
-        </div>
-      </div>
+      			<style>
+        			.container {
+          				display: flex;
+          				align-items: center;
+          				justify-content: center;
+        			}
+        			image {
+          				max-width: 75%;
+          				max-height: 75%;
+          				float: left;
+        			}
+        			.text {
+          				font-size: 20px;
+          				padding-left: 20px;
+          				padding-top: 20%;
+          				float: right;
+        			}
+      			</style>
+      			<div class="container">
+				<div class="image">
+	  				<image href="logo.png"/>
+				</div>
+        			<div class="text">
+          				<h1>Felis Wampii</h1>
+        			</div>
+      			</div>
 		</div>
 	</foreignObject>
 </svg>
