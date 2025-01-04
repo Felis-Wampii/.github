@@ -18,14 +18,14 @@
           -webkit-text-fill-color: transparent;
         }
         .jointext {
-          width: 20ch;
+          width: 12ch;
           animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
-          background: #78dce8;
+          background: #a9dc76;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -34,11 +34,29 @@
          white-space: nowrap;
          font-family: monospace;
          font-size: 1.5em;
-         background: #a9dc76;
+         background: #78dce8;
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
        }
-
+       .discord {
+         width: 7ch;
+         white-space: nowrap;
+         font-family: monospace;
+         font-size: 1.5em;
+         background: #ab9df2;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+       }
+       .asperand {
+          width: 1ch;
+          white-space: nowrap;
+          overflow: hidden;
+          font-family: monospace;
+          font-size: 1.5em;
+          background: #939293;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+       }
         @keyframes blink {
           from, to { border-color: transparent }
           50% { border-color: #fcfcfa }
@@ -52,7 +70,13 @@
           ssh
         </div>
         <div class="jointext">
-          -X thelagoon@discord
+          -X thelagoon
+        </div>
+        <div class="asperand">
+          @
+        </div>
+        <div class="discord">
+          discord
         </div>
       </div>
   </div>
