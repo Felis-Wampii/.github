@@ -17,9 +17,8 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
-        .jointext {
+        .text {
           width: 12ch;
-          animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid;
@@ -40,6 +39,7 @@
        }
        .discord {
          width: 7ch;
+         animation: blink .5s step-end infinite alternate;
          white-space: nowrap;
          font-family: monospace;
          font-size: 1.5em;
@@ -69,7 +69,7 @@
         <div class="command_word">
           ssh
         </div>
-        <div class="jointext">
+        <div class="text">
           -X thelagoon
         </div>
         <div class="asperand">
