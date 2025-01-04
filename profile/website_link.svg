@@ -25,7 +25,7 @@
           border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
-          background: #458588;
+          background: #83a598;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
