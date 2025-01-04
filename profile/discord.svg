@@ -13,34 +13,46 @@
           overflow: hidden;
           font-family: monospace;
           font-size: 1.5em;
-          background: cyan;
+          background: #939293;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
         .jointext {
-          width: 25ch;
+          width: 21ch;
           animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
-          background: cyan;
+          background: #78dce8;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
+        .command_word {
+         width: 4ch;
+         white-space: nowrap;
+         font-family: monospace;
+         font-size: 1.5em;
+         background: #a9dc76;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+       }
 
         @keyframes blink {
           from, to { border-color: transparent }
-          50% { border-color: rgba(255,255,255,1); }
+          50% { border-color: #fcfcfa }
         }
       </style>
       <div class="wrapper">
         <div class="prompt">
           $> 
         </div>
+        <div class="command_word">
+          ssh
+        </div>
         <div class="jointext">
-          ssh -X wampuscats@discord
+          -X wampuscats@discord
         </div>
       </div>
   </div>
