@@ -12,7 +12,7 @@
           white-space: nowrap;
           overflow: hidden;
           font-family: monospace;
-          font-size: 1.5em;
+          font-size: 3en;
           background: cyan;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
@@ -24,7 +24,7 @@
           overflow: hidden;
           border-right: 3px solid;
           font-family: monospace;
-          font-size: 1.5em;
+          font-size: 3en;
           background: cyan;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
