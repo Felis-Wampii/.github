@@ -20,8 +20,6 @@
         .text {
           width: 12ch;
           white-space: nowrap;
-          overflow: hidden;
-          border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
           background: #a9dc76;
@@ -40,6 +38,8 @@
        .discord {
          width: 7ch;
          animation: blink .5s step-end infinite alternate;
+         overflow: hidden;
+         border-right: 3px solid;
          white-space: nowrap;
          font-family: monospace;
          font-size: 1.5em;
