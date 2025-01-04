@@ -18,7 +18,7 @@
           -webkit-text-fill-color: transparent;
         }
         .jointext {
-          width: 21ch;
+          width: 20ch;
           animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
@@ -52,7 +52,7 @@
           ssh
         </div>
         <div class="jointext">
-          -X wampuscats@discord
+          -X thelagoon@discord
         </div>
       </div>
   </div>
