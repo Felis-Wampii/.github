@@ -13,22 +13,31 @@
           overflow: hidden;
           font-family: monospace;
           font-size: 1.5em;
-          background: cyan;
+          background: #928374;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
         .webtext {
-          width: 30ch;
+          width: 25ch;
           animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
-          background: cyan;
+          background: #458588;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
+       .command_word {
+         width: 5ch;
+         white-space: nowrap;
+         font-family: monospace;
+         font-size: 1.5em;
+         background: #d65d0e;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+       }
 
         @keyframes blink {
           from, to { border-color: transparent }
@@ -39,8 +48,11 @@
         <div class="prompt">
           $> 
         </div>
+       <div class="command_word">
+         wget
+       </div>
         <div class="webtext">
-          wget https://thewampuscats.org
+          https://thewampuscats.org
         </div>
       </div>
   </div>
