@@ -17,7 +17,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
-        .text {
+        .jointext {
           width: 12ch;
           animation: blink .5s step-end infinite alternate;
           white-space: nowrap;
@@ -39,7 +39,7 @@
         <div class="prompt">
           $> 
         </div>
-        <div class="text">
+        <div class="jointext">
           join discord
         </div>
       </div>
