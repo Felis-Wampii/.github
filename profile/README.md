@@ -4,8 +4,12 @@
  </a>
 </div>
 
-<div align="center">
+<div align="left">
  <a class="link" href="https://thewampuscats.org">
-  <img class="image" src="website_link.svg" alt="Click to see the source">
+  <img class="image" height="50px" src="website_link.svg" alt="Click to see the source">
+ </a>
+ <br/>
+ <a class="link" href="https://thewampuscats.org">
+  <img class="image" height="50px" src="discord.svg" alt="Click to see the source">
  </a>
 </div>
