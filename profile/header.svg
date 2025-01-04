@@ -7,11 +7,6 @@
           				align-items: center;
           				justify-content: center;
         			}
-        			image {
-          				max-width: 75%;
-          				max-height: 75%;
-          				float: left;
-        			}
         			.text {
           				font-size: 20px;
           				padding-left: 20px;
@@ -21,7 +16,7 @@
       			</style>
       			<div class="container">
 				<div class="image">
-	  				<image href="logo.png"/>
+	  				<image width="150" height="150" href="logo.png"/>
 				</div>
       			</div>
 		</div>
