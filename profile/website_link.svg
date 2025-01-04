@@ -13,7 +13,7 @@
           overflow: hidden;
           font-family: monospace;
           font-size: 1.5em;
-          background: #928374;
+          background: #939293;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -25,7 +25,7 @@
           border-right: 3px solid;
           font-family: monospace;
           font-size: 1.5em;
-          background: #83a598;
+          background: #78dce8;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -34,14 +34,14 @@
          white-space: nowrap;
          font-family: monospace;
          font-size: 1.5em;
-         background: #d65d0e;
+         background: #a9dc76;
          -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
        }
 
         @keyframes blink {
           from, to { border-color: transparent }
-          50% { border-color: rgba(255,255,255,1); }
+          50% { border-color: #fcfcfa; }
         }
       </style>
       <div class="wrapper">
