@@ -4,13 +4,9 @@
       <style>
         .wrapper {
           height: 100vh;
-          display: grid;
+          display: flex;
           place-items: center;
         }
-	.image {
-          max-width: 75%;
-	  max-height: 75%;
-	}
         .text {
           font-size: 20px;
           padding-left: 20px;
@@ -19,9 +15,7 @@
         }
       </style>
       <div class="wrapper">
-	<div class="image">
-	  <image width="150" height="150" href="logo.png"/>
-        </div>
+	<image width="50" height="50" href="logo.png"/>
       </div>
     </div>
   </foreignObject>
