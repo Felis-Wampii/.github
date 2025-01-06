@@ -1,6 +1,6 @@
 <div align="center">
-  <img class="image" height="200px" src="logo.png"/>
-  <img class="image" height="200px" src="title.svg"/>
+  <img class="image" height="150px" src="logo.png"/>
+  <img class="image" height="150px" src="title.svg"/>
 </div>
 
 <div align="left">
