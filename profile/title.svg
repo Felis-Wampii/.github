@@ -1,19 +1,24 @@
-<svg fill="none" width="500px"  xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="500px" height="150px" xmlns="http://www.w3.org/2000/svg">
  <foreignObject width="100%" height="100%">
   <div xmlns="http://www.w3.org/1999/xhtml">
    <style>
     @font-face {
       font-family: "uni 05_53";
-      src: url("uni 05_53.ttf");
+      src: url("fonts/uni 05_53.ttf");
     }
     .text {
      font-family: "uni 05_53";
      font-size: 3em;
+     background: #78dce8;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
     }
     div {
-     height: "100%";
-     line-height: "100%";
-     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 150px;
+     width: 100%;
     }
     span {
      display: inline-block;
