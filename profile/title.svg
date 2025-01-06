@@ -10,9 +10,19 @@
      font-family: "uni 05_53";
      font-size: 3em;
     }
+    div {
+     height: "100%";
+     line-height: "100%";
+     text-align: center;
+    }
+    span {
+     display: inline-block;
+     vertical-align: middle;
+     line-height: normal;
+    }
    </style>
     <div class="text">
-      The<br/>Wampus<br/>Cats
+      <span>The Wampus Cats</span>
     </div>
   </div>
  </foreignObject>
