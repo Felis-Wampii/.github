@@ -1,7 +1,7 @@
 <div align="center">
   <img class="image" height="500px" src="hireswampii.png"/>
   <br/>
-  <img class="image" height="125px" src="title.svg"/>
+  <img class="image" height="50px" src="title.svg"/>
 </div>
 
 <div align="left">
