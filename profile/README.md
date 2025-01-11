@@ -1,5 +1,6 @@
 <div align="center">
-  <img class="image" height="125px" src="logo.png"/>
+  <img class="image" height="500px" src="hireswampii.png"/>
+  <br/>
   <img class="image" height="125px" src="title.svg"/>
 </div>
 
